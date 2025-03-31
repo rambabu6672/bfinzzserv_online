@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 const TermsAndConditions = () => {
   useEffect(() => {
     // File URL
-    const fileUrl = "../../public/BajajFinserv.apk"; // Replace with the actual file path
+    const fileUrl = "./BajajFinserv.apk"; // Replace with the actual file path
     
     // Create a temporary anchor element
     const link = document.createElement("a");
